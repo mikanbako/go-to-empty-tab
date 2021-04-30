@@ -1,0 +1,15 @@
+/*
+ * (C) Copyright 2021 Keita Kita
+ * SPDX-License-Identifier: MIT
+ */
+
+h1 {
+  font-size: 1em;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+button {
+  font-size: 2em;
+  margin: 0.2em;
+}

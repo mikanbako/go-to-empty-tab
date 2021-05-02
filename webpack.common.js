@@ -4,14 +4,12 @@ const WebExtPlugin = require('web-ext-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: {
     browserAction: {
       import: './src/browserAction/script.ts',
       filename: 'browserAction/script.js',
     },
   },
-  devtool: 'inline-source-map',
   module: {
     rules: [
       {

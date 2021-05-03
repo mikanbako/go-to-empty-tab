@@ -18,7 +18,6 @@
     "default_title": "Go to empty tab"
   },
   "permissions": [
-    "<all_urls>",
     "tabs"
   ]
 }

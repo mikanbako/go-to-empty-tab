@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "webpack --config webpack.prod.js",
+    "package": "npm run build && web-ext build -s extension-dist --overwrite-dest",
     "watch": "webpack watch --config webpack.dev.js",
     "test": "jest --rootDir src",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src"

@@ -49,6 +49,6 @@ $ npm run package
 
 ## Directory structure
 
-* images: Sources of image resources.
+* images: Image resources.
 * src: Source codes and resources of this extension.
 * tools: Development utility tools for this extension.
